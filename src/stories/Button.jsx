@@ -23,8 +23,7 @@ Button.propTypes = {
   /**
    * Is this the principal call to action on the page?
    */
-  /* primary: PropTypes.bool, */
-  primary: PropTypes.oneOf(['Primary', 'Secondary',]),
+  primary: PropTypes.bool,
   /**
    * What background color to use
    */
@@ -45,7 +44,7 @@ Button.propTypes = {
 
 Button.defaultProps = {
   backgroundColor: null,
-  primary: `Primary`,
+  primary: true,
   size: 'large',
   onClick: undefined,
 };
