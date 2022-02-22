@@ -23,7 +23,8 @@ Button.propTypes = {
   /**
    * Is this the principal call to action on the page?
    */
-  primary: PropTypes.bool,
+  /* primary: PropTypes.bool, */
+  primary: PropTypes.oneOf(['primary', 'secondary',]),
   /**
    * What background color to use
    */
